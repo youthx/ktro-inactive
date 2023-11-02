@@ -1,0 +1,5 @@
+run = "gcc -o ./build/ktro -m64 main.s && ./build/ktro test.txt"
+entry_point = "main.s"
+
+[nix]
+channel = "stable-22_11"

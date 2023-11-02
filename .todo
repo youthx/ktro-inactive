@@ -1,0 +1,7 @@
+
+- [ ] Lex src into tokens
+
+- [ ] Parse the tokens into AST
+
+- [ ] Compile AST into another assembly file
+

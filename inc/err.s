@@ -1,0 +1,12 @@
+
+.equ ERRORTYPE_NONE,    0x0
+.equ ERRORTYPE_TYPE,    0x1
+.equ ERRORTYPE_TODO,    0x2
+.equ ERRORTYPE_GENERIC, 0x3
+.equ ERRORTYPE_SYNTAX,  0x4
+.equ ERRPRTYPE_ARGS,    0x5
+
+ERR_OK:
+  .zero 16
+
+
