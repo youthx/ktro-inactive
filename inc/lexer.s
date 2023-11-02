@@ -45,6 +45,7 @@ lex: #(char* src, char** beg, char** end) -> err
     mov rdx, QWORD PTR [rbp-8]
     jmp .lexF
 .lex0:
+  # return: OK (no errors present)
   mov rax, QWORD PTR ERR_OK[rip]
   mov rdx, QWORD PTR ERR_OK[rip+8]
 .lexF:

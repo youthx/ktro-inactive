@@ -35,7 +35,7 @@ KTRO comes with a few fundamental language features that make it ideal for low-l
   Functions in KTRO are defined using the `fn` keyword. Here's an example:
 
   ```ktro
-  fn foo(x: i32) !i32 {
+  fn foo: i32 (x: i32) {
        return bar()
   }
   ```
@@ -44,8 +44,8 @@ KTRO comes with a few fundamental language features that make it ideal for low-l
   KTRO allows you to work with both immutable (`imm`) and mutable (`mut`) variables. Here are some variable declarations:
 
   ```ktro
-  imm i32 x = 3; # imm means immutable
-  mut i32 y = 5;
+  imm x: i32 = 3 # imm means immutable
+  mut y: i32 = 5
   ```
 
 - **Console Output:**
@@ -53,7 +53,7 @@ KTRO comes with a few fundamental language features that make it ideal for low-l
 
   ```ktro
   fmw("Hello world!") # format write
-  mut str name = fmr("Enter your name: ")
+  mut name: str = fmr("Enter your name: ")
   ```
 
 - **Direct Memory Access:**
@@ -63,22 +63,22 @@ KTRO comes with a few fundamental language features that make it ideal for low-l
 Here are some simple examples to showcase KTRO's capabilities:
 
 ```ktro
-fn add(x: i32, y: i32) !i32 {
-    return x + y
+fn add: i32 (a: i32, b: i32) {
+  return a + b
 }
 
-mut i32 result = add(5, 3)
+imm result: i32 = add(5, 3)
 fmw("The result is: ")
 fmw(result)
 ```
 
 ```ktro
-imm i32 n = 10
-mut i32 sum = 0
+imm n: i32 = 10
+mut sum: i32 = 0
 
-fn calculate_sum() {
-    for imm i32 i = 1 in 0..n {
-        sum = sum + i
+fn calculate_sum: void () {
+    for mut i: i32 = 0, i < n, i++ {
+      sum += i
     }
 }
 
