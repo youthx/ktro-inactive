@@ -180,5 +180,6 @@ main: #(int argc, char** argv) -> int
   mov eax, 0
   leave
   ret
-  
+
+# gives a weird error w/o this
 .section .note.GNU-stack, ""
