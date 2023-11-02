@@ -2,7 +2,7 @@
 
 Welcome to the KTRO compiler, a powerful tool for creating and running programs in the KTRO programming language. KTRO is a simple, efficient, and low-level language that gives you direct memory access, and our compiler is proudly made completely in assembly.
 
-## Table of Contents
+## Table of Contents :abacus:
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
@@ -12,10 +12,10 @@ Welcome to the KTRO compiler, a powerful tool for creating and running programs 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Introduction :atom_symbol:
 KTRO is a straightforward language designed for low-level system programming. You can define functions, work with variables, and even format and write output to the console. The language prioritizes simplicity and performance, making it suitable for various system-level tasks.
 
-## Getting Started
+## Getting Started :baby_chick:
 ### Installation
 To get started with KTRO, you'll need to download and install the KTRO compiler. Unfortunately, the download link is not yet implemented. Stay tuned for updates on this feature!
 
@@ -28,7 +28,7 @@ ktro [file]
 
 Replace `[file]` with the path to your KTRO source file.
 
-## Language Features
+## Language Features :ab:
 KTRO comes with a few fundamental language features that make it ideal for low-level programming:
 
 - **Function Definition:**
