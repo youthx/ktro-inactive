@@ -1,8 +1,0 @@
-entry "main"
-
-fn main() @i32 {
-  imm x: str = "Hello, world!"
-  fmw("%s\n", x)
-  return 0
-}
-
