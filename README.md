@@ -77,7 +77,7 @@ imm i32 n = 10
 mut i32 sum = 0
 
 fn calculate_sum() {
-    for imm i32 i = 1; i <= n; i = i + 1 {
+    for imm i32 i = 1 in 0..n {
         sum = sum + i
     }
 }
