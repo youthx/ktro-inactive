@@ -18,6 +18,7 @@ KTRO is a straightforward language designed for low-level system programming. Yo
 ## Getting Started :baby_chick:
 ### Installation
 To get started with KTRO, you'll need to download and install the KTRO compiler. Unfortunately, the download link is not yet implemented. Stay tuned for updates on this feature!
+It is recommended that you also download KENV, a lightweight environment builder for KTRO.
 
 ### Compiling KTRO Files
 Once you have the KTRO compiler installed (when available), you can compile KTRO source files with the following command:
