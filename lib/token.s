@@ -17,7 +17,7 @@ Token Types:  */
 .equ TOKEN_BIG_RIGHT_ARROW,  11
 .equ TOKEN_LOW_RIGHT_ARROW,  12
 .equ TOKEN_SEMICOLON,        13
-
+.equ TOKEN_EOF,              14
 /*
 STRUCTURE token {
   QWORD PTR lexeme;
@@ -27,7 +27,6 @@ STRUCTURE token {
 ----------------------------|
 Token Implementation         
 |----------------------------*/
-
 init_token: # (char* lexeme, int type) -> token*
   push rbp
   mov rbp, rsp
