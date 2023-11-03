@@ -1,4 +1,4 @@
-# KTRO Compiler 🚀
+# KTRO 🚀
 
 Welcome to the KTRO compiler, a powerful tool for creating and running programs in the KTRO programming language. KTRO is a simple, efficient, and low-level language that gives you direct memory access, and our compiler is proudly made completely in assembly.
 
